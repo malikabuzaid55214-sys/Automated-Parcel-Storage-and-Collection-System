@@ -67,3 +67,36 @@ The Automated Parcel Storage and Collection System integrates multiple electroni
 | LDR Sensor | 1 | Detects interruption of the laser beam |
 | Passive Buzzer | 1 | Security alarm |
 | LEDs | 2 | Security status indicators |
+
+---
+
+# 💻 Software Design
+
+The software was developed using **CircuitPython** and follows an **Object-Oriented Programming (OOP)** architecture to improve modularity, readability, and maintainability.
+
+The project is divided into two independent software subsystems:
+
+### 📦 Delivery Controller (Pico 1)
+
+Responsible for:
+
+- Student ID verification
+- Delivery gate control
+- Laser-LDR parcel detection
+- Conveyor control
+- UART communication with Pico 2
+
+### 📥 Storage & Collection Controller (Pico 2)
+
+Responsible for:
+
+- Parcel storage management
+- Random PIN generation
+- Parcel collection
+- Automatic parcel shifting
+- Telegram Bot integration
+- Security alarm system
+- Wi-Fi connectivity
+- UART communication with Pico 1
+
+> **Note:** The complete source code for both controllers is available within the `Pico1` and `Pico2` directories of this repository.
