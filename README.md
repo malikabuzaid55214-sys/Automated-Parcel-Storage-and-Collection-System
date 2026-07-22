@@ -49,14 +49,22 @@ In addition to hardware automation, the system integrates a **Telegram Bot** tha
 
 ---
 
-# 🏗️ System Architecture
+# 🔧 Hardware Components
 
-The system is divided into two independent embedded subsystems that cooperate to automate the complete parcel handling process. Each subsystem is responsible for a specific set of tasks while communicating through **one-way UART** and a dedicated **GPIO storage status signal**, resulting in a modular, scalable, and reliable system architecture.
+The Automated Parcel Storage and Collection System integrates multiple electronic components to automate parcel delivery, storage, collection, and user interaction.
 
-<p align="center">
-    <img src="Images/System Architecture.png" alt="System Architecture" width="95%">
-</p>
-
-<p align="center">
-<b>Figure 1.</b> Overall architecture of the Automated Parcel Storage and Collection System.
-</p>
+| Component | Quantity | Purpose |
+|-----------|:--------:|---------|
+| Raspberry Pi Pico | 1 | Controls the parcel delivery subsystem |
+| Raspberry Pi Pico W | 1 | Controls parcel storage, collection, and IoT services |
+| 4×4 Matrix Keypad | 2 | Student ID and PIN entry |
+| Grove RGB LCD Display | 1 | User interface for the delivery subsystem |
+| 16×2 I²C LCD Display | 1 | User interface for the storage and collection subsystem |
+| Continuous Rotation Servo Motors | 6 | Delivery gate, storage gates, collection doors, and parcel shifting mechanism |
+| 28BYJ-48 Stepper Motors | 2 | Conveyor belt and storage shifting mechanism |
+| ULN2003 Driver Modules | 2 | Stepper motor drivers |
+| Laser Module | 1 | Parcel detection |
+| LDR Sensor | 1 | Detects interruption of the laser beam |
+| Passive Buzzer | 1 | Security alarm |
+| LEDs | 2 | Security status indicators |
+| 5 V Power Supply | 1 | Powers the complete system |
