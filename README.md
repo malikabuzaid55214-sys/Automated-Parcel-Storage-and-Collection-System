@@ -131,19 +131,31 @@ The operational logic of the Automated Parcel Storage and Collection System is i
 
 ---
 
-# 🔌 Electronic Schematic
+# 🔌 Hardware Design
 
-The complete electronic schematic illustrates the interconnection between the Raspberry Pi Pico microcontrollers and the peripheral devices used throughout the system. It includes the delivery subsystem, storage and collection subsystem, communication interfaces, sensors, actuators, and user interface components.
+The hardware implementation of the Automated Parcel Storage and Collection System consists of two Raspberry Pi Pico microcontrollers interconnected with sensors, actuators, user interface devices, and communication modules. The following figures present both the practical wiring layout and the complete electrical schematic of the system.
+
+## 📐 Physical Wiring Layout
+
+<p align="center">
+    <img src="Images/Wiring Diagram.png" alt="Physical Wiring Layout" width="95%">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Physical wiring layout of the complete hardware prototype.
+</p>
+
+---
+
+## ⚡ Electronic Schematic
 
 <p align="center">
     <img src="Images/Schematic.png" alt="Electronic Schematic" width="95%">
 </p>
 
 <p align="center">
-<b>Figure 4.</b> Complete electronic schematic of the Automated Parcel Storage and Collection System.
+<b>Figure 5.</b> Complete electronic schematic of the Automated Parcel Storage and Collection System.
 </p>
-
----
 
 # 🔗 Controller Communication
 
