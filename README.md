@@ -32,7 +32,7 @@ In addition to hardware automation, the system integrates a **Telegram Bot** tha
 
 ---
 
-# ✨ Core Features
+#  Core Features
 
 | Feature | Description |
 |:--------:|-------------|
@@ -46,3 +46,17 @@ In addition to hardware automation, the system integrates a **Telegram Bot** tha
 | 🔗 **Dual Pico Communication** | Raspberry Pi Pico boards communicate through one-way UART and a dedicated GPIO storage status signal. |
 | 🚨 **Security Alarm System** | Activates an audible alarm after three consecutive incorrect PIN attempts. |
 | 🌐 **Multi-language Support** | Telegram Bot interface supports multiple languages for improved user accessibility. |
+
+---
+
+# 🏗️ System Architecture
+
+The system is divided into two independent embedded subsystems that cooperate to automate the complete parcel handling process. Each subsystem is responsible for a specific set of tasks while communicating through **one-way UART** and a dedicated **GPIO storage status signal**, resulting in a modular, scalable, and reliable system architecture.
+
+<p align="center">
+    <img src="Images/System Architecture.png" alt="System Architecture" width="95%">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Overall architecture of the Automated Parcel Storage and Collection System.
+</p>
