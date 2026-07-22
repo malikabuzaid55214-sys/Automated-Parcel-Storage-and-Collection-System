@@ -67,4 +67,3 @@ The Automated Parcel Storage and Collection System integrates multiple electroni
 | LDR Sensor | 1 | Detects interruption of the laser beam |
 | Passive Buzzer | 1 | Security alarm |
 | LEDs | 2 | Security status indicators |
-| 5 V Power Supply | 1 | Powers the complete system |
