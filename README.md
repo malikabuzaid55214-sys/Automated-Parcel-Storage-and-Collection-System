@@ -170,15 +170,14 @@ This communication strategy minimizes software complexity while ensuring reliabl
 
 ---
 
+---
+
 # 🎥 Project Demonstration
 
-A complete video demonstration of the project is available on YouTube.
+Watch the complete demonstration of the **Automated Parcel Storage and Collection System**, showcasing the parcel delivery, storage, collection, and security mechanisms.
 
-<p align="center">
+**📺 YouTube:** https://youtu.be/https://youtu.be/w89yXCtu_S8?si=etVViC6-UAvduJDZ
 
-<a href="https://youtu.be/https://youtu.be/w89yXCtu_S8?si=etVViC6-UAvduJDZ">
-    <img src="Images/Demo Thumbnail.png" alt="Project Demonstration" width="85%">
-</a>
 
 </p>
 
