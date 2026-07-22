@@ -150,7 +150,7 @@ The hardware implementation of the Automated Parcel Storage and Collection Syste
 ## ⚡ Electronic Schematic
 
 <p align="center">
-    <img src="Images/Schematic.png" alt="Electronic Schematic" width="95%">
+    <img src="Images/Schematic Diagram.png" alt="Electronic Schematic" width="95%">
 </p>
 
 <p align="center">
