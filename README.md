@@ -100,3 +100,58 @@ Responsible for:
 - UART communication with Pico 1
 
 > **Note:** The complete source code for both controllers is available within the `Pico1` and `Pico2` directories of this repository.
+
+---
+
+# 🔄 System Flowcharts
+
+The operational logic of the Automated Parcel Storage and Collection System is implemented using two independent controllers. The following flowcharts illustrate the execution flow of both Raspberry Pi Pico microcontrollers throughout the parcel delivery, storage, and collection processes.
+
+## 📦 Pico 1 – Delivery Controller
+
+<p align="center">
+    <img src="Images/Pico1 Flowchart.png" alt="Pico 1 Flowchart" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 2.</b> Operational flow of the delivery subsystem executed by Raspberry Pi Pico.
+</p>
+
+---
+
+## 📥 Pico 2 – Storage & Collection Controller
+
+<p align="center">
+    <img src="Images/Pico2 Flowchart.png" alt="Pico 2 Flowchart" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 3.</b> Operational flow of the storage and collection subsystem executed by Raspberry Pi Pico W.
+</p>
+
+---
+
+# 🔌 Electronic Schematic
+
+The complete electronic schematic illustrates the interconnection between the Raspberry Pi Pico microcontrollers and the peripheral devices used throughout the system. It includes the delivery subsystem, storage and collection subsystem, communication interfaces, sensors, actuators, and user interface components.
+
+<p align="center">
+    <img src="Images/Schematic.png" alt="Electronic Schematic" width="95%">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Complete electronic schematic of the Automated Parcel Storage and Collection System.
+</p>
+
+---
+
+# 🔗 Controller Communication
+
+The system employs two communication methods to synchronize both embedded controllers efficiently.
+
+| Communication | Description |
+|---------------|-------------|
+| **UART (One-Way)** | Transfers the validated Student ID from the delivery controller (Pico 1) to the storage controller (Pico 2) after successful parcel delivery. |
+| **GPIO Status Signal** | Indicates storage availability. A HIGH signal allows new deliveries, while a LOW signal prevents additional deliveries when all storage compartments are occupied. |
+
+This communication strategy minimizes software complexity while ensuring reliable synchronization between both controllers.
