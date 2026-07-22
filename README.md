@@ -29,3 +29,20 @@ The **Automated Parcel Storage and Collection System** is an embedded systems pr
 The project is built around **two Raspberry Pi Pico microcontrollers** working cooperatively. The first controller manages parcel delivery, while the second controller handles parcel storage, secure collection, and IoT services. Communication between both controllers is achieved through **UART communication** and a dedicated **GPIO storage status signal**, enabling reliable synchronization throughout the system.
 
 In addition to hardware automation, the system integrates a **Telegram Bot** that provides real-time parcel notifications, collection PIN delivery, security alerts, and multilingual user support, making the parcel collection process convenient, secure, and fully automated.
+
+---
+
+# ✨ Core Features
+
+| Feature | Description |
+|:--------:|-------------|
+| 📦 **Automated Parcel Delivery** | Automatically validates student IDs, opens the delivery gate, and transports parcels to the storage section. |
+| 📡 **Laser–LDR Detection** | Detects parcel placement by monitoring the interruption of the laser beam and initiates conveyor movement automatically. |
+| 🔄 **Smart Storage Management** | Stores parcels sequentially across the Ground, First, and Second floors while tracking storage availability. |
+| 🔐 **Secure PIN Authentication** | Generates a unique 4-digit PIN for each parcel, ensuring that only authorized students can collect their parcels. |
+| 🚪 **Automatic Parcel Collection** | Opens the appropriate collection door for 7 seconds after successful PIN verification. |
+| 📤 **Automatic Parcel Shifting** | Remaining parcels are automatically shifted downward after collection to maximize storage efficiency. |
+| 📲 **Telegram Bot Integration** | Sends parcel arrival notifications, collection confirmations, reminders, and security alerts in real time. |
+| 🔗 **Dual Pico Communication** | Raspberry Pi Pico boards communicate through one-way UART and a dedicated GPIO storage status signal. |
+| 🚨 **Security Alarm System** | Activates an audible alarm after three consecutive incorrect PIN attempts. |
+| 🌐 **Multi-language Support** | Telegram Bot interface supports multiple languages for improved user accessibility. |
