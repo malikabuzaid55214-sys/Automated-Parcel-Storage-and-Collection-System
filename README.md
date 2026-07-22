@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/Programming Raspberry Pi Pico W.png" alt="Project Banner" width="100%">
+  <img src="Images/Banner.png" alt="Project Banner" width="100%">
 </p>
 
 <h1 align="center">
