@@ -138,7 +138,7 @@ The hardware implementation of the Automated Parcel Storage and Collection Syste
 ## 📐 Physical Wiring Layout
 
 <p align="center">
-    <img src="Images/Wiring Diagram.png" alt="Physical Wiring Layout" width="95%">
+    <img src="Images/Wiring Diagram.jpeg" alt="Physical Wiring Layout" width="95%">
 </p>
 
 <p align="center">
@@ -150,7 +150,7 @@ The hardware implementation of the Automated Parcel Storage and Collection Syste
 ## ⚡ Electronic Schematic
 
 <p align="center">
-    <img src="Images/Schematic Diagram.png" alt="Electronic Schematic" width="95%">
+    <img src="Images/Schematic Diagram.jpeg" alt="Electronic Schematic" width="95%">
 </p>
 
 <p align="center">
