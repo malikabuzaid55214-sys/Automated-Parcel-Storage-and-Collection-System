@@ -226,6 +226,6 @@ Universiti Malaysia Perlis (UniMAP)
 
 This repository is released for **educational and research purposes**.
 
-Feel free to study, modify, and extend the project for learning and academic use.
+Feel free to study and learn the project for academic use.
 
 © 2026 All Rights Reserved.
