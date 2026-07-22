@@ -167,3 +167,65 @@ The system employs two communication methods to synchronize both embedded contro
 | **GPIO Status Signal** | Indicates storage availability. A HIGH signal allows new deliveries, while a LOW signal prevents additional deliveries when all storage compartments are occupied. |
 
 This communication strategy minimizes software complexity while ensuring reliable synchronization between both controllers.
+
+---
+
+# 🎥 Project Demonstration
+
+A complete video demonstration of the project is available on YouTube.
+
+<p align="center">
+
+<a href="https://youtu.be/https://youtu.be/w89yXCtu_S8?si=etVViC6-UAvduJDZ">
+    <img src="Images/Demo Thumbnail.png" alt="Project Demonstration" width="85%">
+</a>
+
+</p>
+
+<p align="center">
+<b>▶ Watch the complete project demonstration.</b>
+</p>
+
+---
+
+# 🚀 Future Improvements
+
+Although the current system successfully automates parcel delivery and collection, several enhancements can further improve its functionality and scalability.
+
+### Security
+
+- 🔑 RFID authentication
+- 👆 Fingerprint authentication
+- 😊 Face recognition
+
+### IoT & Software
+
+- ☁ Cloud database integration
+- 📱 Mobile application
+- 📊 Web-based monitoring dashboard
+
+### Hardware
+
+- 📦 Increased storage capacity
+- 📷 Camera module for parcel monitoring
+- ⚖ Weight sensor for parcel verification
+- 🔋 Battery backup for uninterrupted operation
+
+---
+
+# 👨‍💻 Author
+
+**Malik Abuzaid Abdalla**  
+*Mechatronics Engineering Student*  
+Faculty of Electronic Engineering Technology  
+Universiti Malaysia Perlis (UniMAP)
+
+---
+
+# 📜 License
+
+This repository is released for **educational and research purposes**.
+
+Feel free to study, modify, and extend the project for learning and academic use.
+
+© 2026 All Rights Reserved.
