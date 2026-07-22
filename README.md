@@ -110,7 +110,7 @@ The operational logic of the Automated Parcel Storage and Collection System is i
 ## 📦 Pico 1 – Delivery Controller
 
 <p align="center">
-    <img src="Images/Pico1 Flowchart.jpeg" alt="Pico 1 Flowchart" width="90%">
+    <img src="Images/Pico 1 Flowchart.jpeg" alt="Pico 1 Flowchart" width="90%">
 </p>
 
 <p align="center">
@@ -122,7 +122,7 @@ The operational logic of the Automated Parcel Storage and Collection System is i
 ## 📥 Pico 2 – Storage & Collection Controller
 
 <p align="center">
-    <img src="Images/Pico2 Flowchart.jpeg" alt="Pico 2 Flowchart" width="90%">
+    <img src="Images/Pico 2 Flowchart.jpeg" alt="Pico 2 Flowchart" width="90%">
 </p>
 
 <p align="center">
